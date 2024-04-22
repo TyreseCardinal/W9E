@@ -61,7 +61,7 @@ const tweets = [
   }
 ];
 
-console.log("----Users over 18----");
+console.log("--Users over 18--");
 
 let a = 0;
 while (a < tweets.length) {
@@ -74,7 +74,7 @@ while (a < tweets.length) {
 }
 
 console.log("-------------");
-console.log("----Users under 18----")
+console.log("--Users under 18--")
 
 for (let a = 0; a < tweets.length; a++) {
   const tweet = tweets[a];
